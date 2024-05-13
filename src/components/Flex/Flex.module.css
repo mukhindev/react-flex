@@ -1,0 +1,12 @@
+.root {
+  --direction: unset;
+  --gap: unset;
+  --align-items: unset;
+  --justify-content: unset;
+
+  display: flex;
+  flex-direction: var(--direction);
+  gap: var(--gap);
+  align-items: var(--align-items);
+  justify-content: var(--justify-content);
+}
